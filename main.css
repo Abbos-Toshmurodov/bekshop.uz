@@ -1,0 +1,39 @@
+.carousel {
+  height: 80vh;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.carousel .carousel-inner {
+  width: 100%;
+  height: 100%;
+}
+.carousel .carousel-item {
+  width: 100%;
+  height: 100%;
+}
+.carousel .carousel-item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.cards-list {
+  display: grid;
+  gap: 1vmax;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.cards-list > .card img {
+  max-height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.section {
+  padding: 3vmax 0;
+}
+
+.map {
+  width: 100%;
+  height: 400px;
+}/*# sourceMappingURL=main.css.map */

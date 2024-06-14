@@ -1,0 +1,41 @@
+.carousel {
+	height: 80vh;
+	width: 100%;
+	margin-bottom: 2rem;
+	.carousel-inner {
+		width: 100%;
+		height: 100%;
+	}
+	.carousel-item {
+		width: 100%;
+		height: 100%;
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+}
+
+.cards-list {
+	display: grid;
+	gap: 1vmax;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	> .card {
+		img {
+			max-height: 200px;
+			object-fit: cover;
+		}
+	}
+}
+
+.section{
+  padding: 3vmax 0;
+}
+
+.map{
+  width: 100%;
+  height: 400px;
+}
+
+

@@ -1,0 +1,564 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./main.css">
+  
+  
+  <title>BEKSHOP.UZ</title>
+</head>
+
+<body>
+
+  <!-- =============Navbar Starts =============-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">BEKSHOP.UZ</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Bosh Sahifa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Xizmatlar</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Kategoriyalar 
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#laptops">
+                  <i class="fa fa-laptop"></i>
+                  Noutbooklar
+                </a></li>
+              <li><a class="dropdown-item" href="#monitors">
+                  <i class="fa fa-tv"></i>
+                  Monitorlar</a></li>
+              <li><a class="dropdown-item" href="#smartphones">
+                  <i class="fa fa-mobile-phone" style="font-size:22px;"></i>
+                  Smartfonlar</a></li>
+              <li><a class="dropdown-item" href="#tvs">
+                  <i class="fa fa-tv"></i>
+                  Televizorlar</a></li>
+              <li><a class="dropdown-item" href="#bitavoy">
+                <i class="fab fa-angellist"></i>
+                Bitavoy texnika</a></li>
+
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#others">Boshqalar</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">Bog'lanish</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Qidirish..." aria-label="Qidirish">
+          <button class="btn btn-outline-success" type="submit">
+            <i class="fa fa-search"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- =============Navbar Ends =============-->
+
+
+
+
+  <!-- ///////////Carousel Starts/////////// -->
+  <div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img
+          src="https://images.unsplash.com/photo-1611078489935-0cb964de46d6?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wc3xlbnwwfHwwfHx8MA%3D%3D"
+          class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img
+          src="https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGFwdG9wc3xlbnwwfHwwfHx8MA%3D%3D"
+          class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bGFwdG9wc3xlbnwwfHwwfHx8MA%3D%3D"
+          class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- ///////////Carousel Ends ///////////-->
+
+
+  <!-- ============Section1 starts============ -->
+  <section id="laptops" class="section container">
+    <h1 class="section-title">Noutbooklar</h1>
+    <hr>
+
+    <div class="cards-list">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QXN1cyUyMGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">asus</h5>
+          <p class="card-text">Asus · ASUS ExpertBook B9 (Intel® Evo™ Platform) · ASUS ExpertBook B9 (Intel® Evo™ Platform) · Asus ROG Strix G16 (i7-13650HX/RTX4060) · Asus ROG Strix G16
+          </p>
+          <a href="#" class="btn btn-success">
+            Sotib olish 
+            <i class="fa fa-shopping-basket"></i>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWFja2Jvb2slMjBsYXB0b3B8ZW58MHx8MHx8fDA%3D" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">mackbook</h5>
+          <p class="card-text">The most powerful Mac laptops and desktops ever. Supercharged by M1 and M2 chips. MacBook Air, MacBook Pro, iMac, Mac mini, Mac Studio, and Mac Pro.
+          </p>
+          <a href="#" class="btn btn-success">
+            Sotib olish 
+            <i class="fa fa-shopping-basket"></i>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://media.istockphoto.com/id/104248572/photo/modern-laptop2.webp?b=1&s=170667a&w=0&k=20&c=U5H7zcgqVN7VxZGzc5JNGAo9qPEUPpSyt9LZ4g3NIIY=" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">hp</h5>
+          <p class="card-text"> Ноутбук HP Laptop (7P514EA). Тип процессора: Intel Core i3-1315U; Графический контроллер: Intel HD Graphics; Диагональ экрана
+          </p>
+          <a href="#" class="btn btn-success">
+            Sotib olish 
+            <i class="fa fa-shopping-basket"></i>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1693206578601-21cdc341d2c8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWNlciUyMGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">acer</h5>
+          <p class="card-text">Ноутбук Acer Predator Triton наделен высококачественной конструкцией, в которой реализован широкоформатный дисплей, диагональю 15,6” и высоким разрешением.
+          </p>
+          <a href="#" class="btn btn-success">
+            Sotib olish 
+            <i class="fa fa-shopping-basket"></i>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://media.istockphoto.com/id/1133928964/photo/laptop-computer-on-desk-beach-background.webp?b=1&s=170667a&w=0&k=20&c=UMtenSh20qDmSJfaDyLjN1eX6UyuGggm65KErXLa49I=" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Apple</h5>
+          <p class="card-text">MacBook Pro with M3, M3 Pro, and M3 Max chips. Up to 22 hours of battery life. The world's best laptop display. Now in a new color: Space Black.
+          </p>
+          <a href="#" class="btn btn-success">
+            Sotib olish 
+            <i class="fa fa-shopping-basket"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- ============Section1 ends ============-->
+
+  <!-- ============Section2 starts============ -->
+  <section id="monitors" class="section container">
+    <h1 class="section-title">Monitorlar</h1>
+    <hr>
+
+    <div class="cards-list">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TW9uaXRvcnN8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Монитор для блогерства</h5>
+          <p class="card-text">
+          </p>
+          <a href="#" class="btn btn-success">
+            Sotib olish 
+            <i class="fa fa-shopping-basket"></i>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://media.istockphoto.com/id/944512054/photo/tv-4k-flat-screen-lcd-or-oled-plasma-realistic-illustration-white-blank-hd-monitor-mockup-with.webp?b=1&s=170667a&w=0&k=20&c=o0yq9SFqTJxG0dFKX7W4wblfdeN-doNxhCGMhjh1Zr8=" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">монитор для футбола</h5>
+          <p class="card-text">
+          </p>
+          <a href="#" class="btn btn-success">
+            Sotib olish 
+            <i class="fa fa-shopping-basket"></i>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1604355714851-c1d5990e1696?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHNjcmVlbnN8ZW58MHx8MHx8fDA%3D" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">смарт монитор</h5>
+          <p class="card-text">
+          </p>
+          <a href="#" class="btn btn-success">
+            Sotib olish 
+            <i class="fa fa-shopping-basket"></i>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://plus.unsplash.com/premium_photo-1683436791486-508249532f52?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2NyZWVuc3xlbnwwfHwwfHx8MA%3D%3D" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Монитор для стрима</h5>
+          <p class="card-text">
+          </p>
+          <a href="#" class="btn btn-success">
+            Sotib olish 
+            <i class="fa fa-shopping-basket"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+  <!-- ============Section2 ends ============-->
+
+  <!-- ============Section3 starts============ -->
+  <section id="smartphones" class="section container">
+    <h1 class="section-title">Smartfonlar</h1>
+    <hr>
+
+    <div class="cards-list">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1591815302525-756a9bcc3425?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fElwaG9uZXxlbnwwfHwwfHx8MA%3D%3D" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">iphone 15</h5>
+          <p class="card-text">New. iPhone 15 · A16 Bionic chip with 5-core GPU · Advanced dual-camera system. 48MP Main camera 2x Telephoto Ultra Wide camera · Up to 26 hours video playback ...
+          </p>
+          <a href="#" class="btn btn-success">
+            Sotib olish 
+            <i class="fa fa-shopping-basket"></i>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://media.istockphoto.com/id/1314386877/photo/grey-smart-phone.webp?b=1&s=170667a&w=0&k=20&c=q-ScQ7R5ymg1vNYLThEgvZDIrOnBsZAKkMMKvXDe4Bg=" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Galaxy A73 5G</h5>
+          <p class="card-text">6 875 000 сум ; Селфи камера (MP). 32 ; Разрешение видео. 2160p (4K) при 30 FPS ; Версия Wi-Fi. Wi-Fi 6 (802.11 a/b/g/n/ac/ax) ; Версия Bluetooth. 5 ; Тип USB. USB ...
+          </p>
+          <a href="#" class="btn btn-success">
+            Sotib olish 
+            <i class="fa fa-shopping-basket"></i>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1610792516286-524726503fb2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UzIxJTIwdWx0cmF8ZW58MHx8MHx8fDA%3D" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">
+            Samsung S21 Ultra
+          </h5>
+          <p class="card-text">Samsung Galaxy S21 Ultra 5G 12/256GB ; Версия ОС. Android 11 ; Количество и тип SIM-карты. Single SIM (Nano-SIM and/or eSIM) ; Размеры. 165,1 x 75,6 x 8,9 mm ; Вес.
+          </p>
+          <a href="#" class="btn btn-success">
+            Sotib olish 
+            <i class="fa fa-shopping-basket"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- ============Section3 ends ============-->
+
+  <!-- ============Section4 starts============ -->
+  <section id="tvs" class="section container">
+    <h1 class="section-title">Televizorlar</h1>
+    <hr>
+
+    <div class="cards-list">
+    
+      <div class="card">
+        <img src="https://www.intex.in/cdn/shop/products/1_9b8014ad-124e-4742-a628-9a4c4affe617.jpg?v=1648711109" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Смарт Телевизор</h5>
+          <p class="card-text">
+          </p>
+          <a href="#" class="btn btn-success">
+            Sotib olish 
+            <i class="fa fa-shopping-basket"></i>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://media.istockphoto.com/id/1044344434/photo/blue-tv-on-pink-background-3d-illustration.webp?b=1&s=170667a&w=0&k=20&c=9dE4QZxk868mXmXR3lDlw34BhcjjBHQok7vHU_pZKJY=" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Телевизор для коллекции</h5>
+          <p class="card-text">
+          </p>
+          <a href="#" class="btn btn-success">
+            Sotib olish 
+            <i class="fa fa-shopping-basket"></i>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://media.istockphoto.com/id/829504794/photo/tv-set-with-screen-showing-greek-island-landscape.webp?b=1&s=170667a&w=0&k=20&c=g4eUWt8w-MHIVExnojYBF7fB6ESW-g4lAG9uvGWWtJ0=" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Телевизор для Ютуба</h5>
+          <p class="card-text">
+          </p>
+          <a href="#" class="btn btn-success">
+            Sotib olish 
+            <i class="fa fa-shopping-basket"></i>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://media.istockphoto.com/id/1440854098/photo/scandinavian-style-modern-living-room-with-entertainment-center.jpg?s=2048x2048&w=is&k=20&c=bhgSdgOLFi3uqWIFFJu83VPUodZJsFwJ0HbMPMZAguY=" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Робот телевизор</h5>
+          <p class="card-text">
+          </p>
+          <a href="#" class="btn btn-success">
+            Sotib olish 
+            <i class="fa fa-shopping-basket"></i>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://media.istockphoto.com/id/1456456934/photo/wide-screen-led-smart-tv-wall-mounted-clipping-path.webp?b=1&s=170667a&w=0&k=20&c=AZqcEJSsWAS7EJvKWpLyEz99IugxfO4bV8F68MRO5qE=" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">телевизор на воздухе/h5>
+          <p class="card-text">
+          </p>
+          <a href="#" class="btn btn-success">
+            Sotib olish 
+            <i class="fa fa-shopping-basket"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- ============Section4 ends ============-->
+
+<!-- Section 5   bitavoy texnika starts-->
+<section id="bitavoy" class="section container">
+  <h1 class="section-title">Bitavoy texnika</h1>
+  <hr>
+
+  <div class="cards-list">
+  
+    <div class="card">
+      <img src="https://assets.asaxiy.uz/product/items/desktop/cfcd208495d565ef66e7dff9f98764da2022092111085953800r8FDQghfR0.jpg.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Холодильник LG GR-X24FMKBL</h5>
+        <p class="card-text">Система охлаждения Total No Frost
+          Тип компрессора ● Линейный компрессор
+          Материал отделки двери PCM
+          Материал отделки корпуса PCM
+          Цвет Сияющий чёрный
+          Тип ручки Горизонтальная cкрытая
+        </p>
+        <a href="#" class="btn btn-success">
+          Sotib olish 
+          <i class="fa fa-shopping-basket"></i>
+        </a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcROvcHgA5NstoUrsx8gmQOwBv4-sYhhcujociAnwTHLZNkX4x-oeHSgi6PS06QWj3I5gs8j11TRqmK6uwQ79cOowZw4fILqXDMpUih4PW8_QuWIbcTIghDhBT78zLICtKzQ1kGZxkU&usqp=CAc" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Робот-пылесос Roborock S7 MaxV Ultra, Черный</h5>
+        <p class="card-text">Флагмаг среди роботов-пылесосов компании. Он оснащен фронтальной камерой и функцией светового 3D-сканирования. Помощник распознает предметы на полу, объезжает их. Обувь, кабели или ножка стула? Обо всем, что “разглядит” на пути, пылесос отчитается в приложении.
+        </p>
+        <a href="#" class="btn btn-success">
+          Sotib olish 
+          <i class="fa fa-shopping-basket"></i>
+        </a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRW42YiFcGLxnh-pOv7y5sMjJT8ZHPvrRCoeTXq8a2mNdn9t5Wy3Bb1jfO85W9Mpw908gBcuPwj_F4NuFuSZ2mF0gaLRWH9eRj8QJ8k2JbGJfZNXVq6IKVv3OVtAZ37QdhUX14UcVY&usqp=CAc" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Холодильник Bosch KAD93VBFP</h5>
+        <p class="card-text">Холодильник Side by Side Bosch KAD93VBFP — двухдверная модель черного цвета с ледогенератором и диспенсером холодной воды. Управление производится при помощи кнопок на дисплее, можно настроить температуру, активировать специальные функции суперохлаждения и суперзамораживания. 
+        </p>
+        <a href="#" class="btn btn-success">
+          Sotib olish 
+          <i class="fa fa-shopping-basket"></i>
+        </a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRW42YiFcGLxnh-pOv7y5sMjJT8ZHPvrRCoeTXq8a2mNdn9t5Wy3Bb1jfO85W9Mpw908gBcuPwj_F4NuFuSZ2mF0gaLRWH9eRj8QJ8k2JbGJfZNXVq6IKVv3OVtAZ37QdhUX14UcVY&usqp=CAc" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Кофемашина DeLonghi PrimaDonna Elite ECAM650.55.MS</h5>
+        <p class="card-text">Автоматическая кофемашина DeLonghi ECAM 650.55.MS готовит эспрессо, лунго, капучино и  латте макиато. Прибор оснащен двумя нагревательными системами, благодаря которым и термоблок, и система приготовления молока работают одновременно. 
+        </p>
+        <a href="#" class="btn btn-success">
+          Sotib olish 
+          <i class="fa fa-shopping-basket"></i>
+        </a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTHiLN_GxBSHcsK6EyMYNu-ZqcbKiNzgsGdefQxfSVpqzkAFKPRRvLBCUA_YbPJhX9tG8bLmEVTqlfdPZoolHMu-_5iZF1ydDvnUIPW4OItVjqp4BOhWpEyDQpX-bkskfcG0Z1hPA&usqp=CAc" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Кофемашина Philips EP3241 Series 3200 LatteGo</h5>
+        <p class="card-text">Philips EP3241/50 - отличная кофемашина, которая способна приготовить ароматный и вкусный кофе всего за несколько минут. Резервуар для воды имеет объем 1,8 литра, а контейнер для зерен - 275 грамм. Этого достаточно, чтобы приготовить от 15 до 20 чашек напитка одновременно.
+        </p>
+        <a href="#" class="btn btn-success">
+          Sotib olish 
+          <i class="fa fa-shopping-basket"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+</section>
+<!-- Section 5 bitavoy texnika ends -->
+<!-- Section 6 boshqalar aralash texnika  starts -->
+<section id="others" class="section container">
+  <h1 class="section-title">Boshqalar</h1>
+  <hr>
+
+  <div class="cards-list">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1472289065668-ce650ac443d2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG90aGVycyUyMHRoaW5nc3xlbnwwfHwwfHx8MA%3D%3D" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Pencils</h5>
+        <p class="card-text">A pencil is a writing or drawing implement with a solid pigment core in a protective casing that reduces the risk of core breakage, and keeps it from ...
+        </p>
+        <a href="#" class="btn btn-success">
+          Sotib olish 
+          <i class="fa fa-shopping-basket"></i>
+        </a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://media.istockphoto.com/id/1503365246/photo/a-tulip-field-in-holland-with-a-yellow-red-tulip-growing-high-above-the-other-tulips-the.webp?b=1&s=170667a&w=0&k=20&c=0_zSv2dkFU8r81N_ls9qpgB1DANb6mX1kQYcIqVNQEA=" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Flowers</h5>
+        <p class="card-text">A flower, also known as a bloom or blossom, is the reproductive structure found in flowering plants Flowers consist of a combination of vegetative organs ...
+        </p>
+        <a href="#" class="btn btn-success">
+          Sotib olish 
+          <i class="fa fa-shopping-basket"></i>
+        </a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://media.istockphoto.com/id/1667065856/photo/four-red-apples-stacked-on-top-of-each-others-copy-space-and-white-background.webp?b=1&s=170667a&w=0&k=20&c=aHd33STgNvh_qBIkoMOK_HenJRGFrbkk2ciihe6qpEY=" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">
+          Apple Fruit
+        </h5>
+        <p class="card-text">Apples are healthy, tasty, and among the most popular fruits in the world. Although they are not particularly rich in vitamins and minerals, they're a good ..
+        </p>
+        <a href="#" class="btn btn-success">
+          Sotib olish 
+          <i class="fa fa-shopping-basket"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+</section>
+<!-- Section 6 boshqalar aralash texnika ends -->
+
+
+  <!-- ============Contact Starts ============-->
+  <div id="contact" class="section container">
+    <h1>Bog'lanish</h1>
+    <hr>
+
+    <div class="row">
+      <form class="col-4 mx-auto">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+              style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Bu yerga Xabaringizni yozing</label>
+          </div>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Submit</button>
+      </form>
+    </div>
+  </div>
+  <!-- ============Contact Ends ============-->
+
+
+  <!-- Address starts  -->
+    <div class="section container">
+        <h1>Address</h1>
+        <hr>
+
+        <iframe class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2984.597895656354!2d64.22147840000001!3d41.577946499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5825fd69784b8d%3A0xa06a2211d53b3a25!2s%22GOLD%20MART%22!5e0!3m2!1sru!2s!4v1707762833493!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+          style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  <!-- Address ends  -->
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
